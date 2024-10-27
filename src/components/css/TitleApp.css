@@ -1,0 +1,19 @@
+
+
+.containerTitle {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8%;
+    background-color: rgb(226, 23, 23);
+    padding-top: 5dvb;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 35px;
+    
+
+}
