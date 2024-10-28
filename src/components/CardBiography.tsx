@@ -5,7 +5,7 @@ import { Header } from './Header';
 
 export const CardBiography = () => {
 
-    const frase = 'Amado Esposo y Cariñoso Padre';
+   
 
 
   return (

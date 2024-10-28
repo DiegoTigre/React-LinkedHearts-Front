@@ -7,7 +7,7 @@ import '../components/css/CardAlbum.css'
 
 export const CardAlbum = () => {
 
-  const [pictures, setPictures] = useState([
+  const [pictures, ] = useState([
     {
       id:1,
       imagen:'https://img.freepik.com/fotos-premium/fotografias-alegres-familia-estadounidense-cada-album-familiar_1199394-210114.jpg?w=740',

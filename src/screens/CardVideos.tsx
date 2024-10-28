@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 export const CardVideos = () => {
 
-     const [videos, setVideos] = useState([
+     const [videos, ] = useState([
 
           {
         
