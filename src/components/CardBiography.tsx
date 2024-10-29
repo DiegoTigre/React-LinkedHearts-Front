@@ -50,7 +50,7 @@ export const CardBiography = () => {
   
   
 </div>
-<div style={{textAlign: 'center', marginTop: '-200px'}}>
+<div style={{textAlign: 'center', marginTop: '-150px'}}>
   <a href="https://x.com/?lang=es">Twitter<i className="fa fa-twitter"></i></a>
   <a href="https://www.linkedin.com/feed/">Linkedin<i className="fa fa-linkedin"></i></a>
   <a href="https://es-es.facebook.com/">Facebook<i className="fa fa-facebook"></i></a>

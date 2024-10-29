@@ -1,0 +1,32 @@
+
+.biography{
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    
+    
+
+}
+
+.bodyBiography{
+
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-inline-start: 10%;
+    padding-inline-end:     10%;
+
+     
+    
+        
+        
+        
+        
+    
+}

@@ -1,4 +1,5 @@
-import { CardBiography, Menu, TitleApp } from "../components"
+import { CardBiography, Menu, TitleApp } from "../components";
+import './css/Biografia.css'
 
 
 
@@ -11,9 +12,24 @@ export const Biografia = () => {
     <CardBiography/>
     <Menu/>
 
+
     <div className="titleCard">Biografia</div>
 
-    <p>
+
+    <div className="bodyBiography">
+
+    
+
+
+    <div  className="biography">
+
+
+
+
+
+
+
+    
         Biografía y carrera
 1886-1908: primeros años
 Su padre fue Diego Rivera Acosta y su madre María del Pilar Barrientos.
@@ -29,7 +45,13 @@ Justo Sierra, y en 1907, otra del entonces gobernador de Veracruz, Teodoro A. De
 que le permitieron viajar a España a hacer estudios de obras como las de Goya, 
 El Greco y Brueghel6​ e ingresar en el taller de Eduardo Chicharro, uno de los retratistas más sobresalientes en Madrid.
 
-    </p>
+   
+
+    </div>
+
+    </div>
+
+    
 
     </>
   )

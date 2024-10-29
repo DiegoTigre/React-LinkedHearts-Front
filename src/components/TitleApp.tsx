@@ -5,7 +5,7 @@ export const TitleApp = () => {
   return (
     <>
     
-    
+    <div style={{width: '100%', height:'10px', backgroundColor:'white'}}></div>
     <div className="containerTitle">
         
 
