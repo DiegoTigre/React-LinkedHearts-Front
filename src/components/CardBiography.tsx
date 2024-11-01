@@ -26,8 +26,8 @@ export const CardBiography = () => {
     style={{borderRadius: 200, maxWidth: 280,}}/>
    
    <div className='textBody'>
-    <h1 className="title">Arquitecto Francisco de la O.</h1>
-    <h5>Sep 27 1970 - Febrero 27 2015</h5>
+    <h1 className="title">Don Badillo</h1>
+    <h5>...... .. 19.. - .......  .. 20..</h5>
   
   
   
@@ -51,9 +51,9 @@ export const CardBiography = () => {
   
 </div>
 <div style={{textAlign: 'center', marginTop: '-150px'}}>
-  <a href="https://x.com/?lang=es">Twitter<i className="fa fa-twitter"></i></a>
-  <a href="https://www.linkedin.com/feed/">Linkedin<i className="fa fa-linkedin"></i></a>
-  <a href="https://es-es.facebook.com/">Facebook<i className="fa fa-facebook"></i></a>
+  <a href="">Twitter<i className="fa fa-twitter"></i></a>
+  <a href="">Linkedin<i className="fa fa-linkedin"></i></a>
+  <a href="">Facebook<i className="fa fa-facebook"></i></a>
   </div>
 
 

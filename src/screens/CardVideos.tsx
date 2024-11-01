@@ -15,15 +15,15 @@ export const CardVideos = () => {
           {
         
             id:1,
-            url:'https://youtu.be/jnvTEps8wMQ',
+            url:'',
             
-            descPhoto:'Un dia normal no tan normal',
+            descPhoto:'Video',
             
         },
         
         {
           id:2,
-          url: 'https://youtu.be/NZaS6ip9IyY',
+          url: '',
          
           descPhoto: 'Video',
         
@@ -31,7 +31,7 @@ export const CardVideos = () => {
         
         {
           id:2,
-          url: 'https://www.youtube.com/watch?v=C869iGCrwXs',
+          url: '',
          
           descPhoto: 'Video',
          
@@ -39,9 +39,9 @@ export const CardVideos = () => {
         
         {
           id:2,
-          url: 'https://www.youtube.com/shorts/AUEORHjMmRY',
+          url: '',
           
-          descPhoto: 'Motos',
+          descPhoto: 'Video',
           
         },
         
@@ -58,7 +58,7 @@ export const CardVideos = () => {
 <CardBiography/>
 <Menu/>
 
-    <div className='titleCard'>Video Memories</div>
+    <div className='titleCard'>Video Memorias</div>
     <div className='bodyVideo' >
 
     

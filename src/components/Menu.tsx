@@ -7,10 +7,10 @@ export const Menu = () => {
     <>
     <nav>
     <ul>
-  <li><Link to= '/React-LinkedHearts-Front'>Picture Memories</Link></li>
-  <li><Link to='/React-LinkedHearts-Front/videos'>video Memories</Link></li>
-  <li><a href="/React-LinkedHearts-Front/">Time line</a></li>
-  <li><Link to='/React-LinkedHearts-Front/biografia'>Knowing More</Link></li>
+  <li><Link to= '/React-LinkedHearts-Front'>Memorias</Link></li>
+  <li><Link to='/React-LinkedHearts-Front/videos'>Video Memorias</Link></li>
+  <li><a href="/React-LinkedHearts-Front/">Linea del Tiempo</a></li>
+  <li><Link to='/React-LinkedHearts-Front/biografia'>Biografia</Link></li>
    </ul>
    </nav>
     </>
