@@ -22,7 +22,7 @@ export const CardBiography = () => {
     
     
   <div className="cardPrincipal">
-  <img className='img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/800px-Donald_Trump_official_portrait.jpg" 
+  <img className='img' src="https://drive.google.com/thumbnail?id=1XtJtmKi60D_AFY8wXtRxVwiAeK0BkAWR" 
     style={{borderRadius: 200, maxWidth: 280,}}/>
    
    <div className='textBody'>

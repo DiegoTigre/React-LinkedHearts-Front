@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { TitleApp, CardBiography, Card, Menu, LoginPage } from "../components"
+import { TitleApp, CardBiography, Card, Menu, /*LoginPage*/ } from "../components"
 import '../components/css/CardAlbum.css'
 
 
@@ -10,62 +10,132 @@ export const CardAlbum = () => {
   const [pictures, ] = useState([
     {
       id:1,
-      imagen:'https://img.freepik.com/fotos-premium/fotografias-alegres-familia-estadounidense-cada-album-familiar_1199394-210114.jpg?w=740',
-      titlePhoto:'Gradiacion Steve Hermano Menor',
-      descPhoto:'Dia de orgullo para Francisco al ver terminar sus estudios su hermano.',
+      imagen:'https://drive.google.com/thumbnail?id=1I3ln6DixA6IEJuoTHfQgu9JPz_1t473N',
+      titlePhoto:'Compartiendo',
+      descPhoto:'Con los pequeños de la casa.',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
      
     },
     {
       id:2,
-      imagen:'https://i.pinimg.com/564x/f3/21/d7/f321d7ea9c83a818236856087dd882c9.jpg',
+      imagen:'https://drive.google.com/thumbnail?id=1WtslEJtkO1oaxRKxNwkBbsuBDRtkVMnx',
       titlePhoto:'Un día Especial',
-      descPhoto:'Casamiento Arquitecto con su amada esposa Veronica Fernandez',
+      descPhoto:'Reunion con todos los nietos.',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
       
 
     },
     {
       id:3,
-      imagen:'https://media.istockphoto.com/id/628529940/es/foto/pareja-se-divierte-en-el-muelle-al-atardecer-cerca-del-lago.jpg?s=2048x2048&w=is&k=20&c=6kbwrTdBAggPL6UDzFWdPwXZmuiMwYo3cvqrYOZvQPQ=',
-      titlePhoto:'Amor en el Lago ',
-      descPhoto:'Un dia romantico con su esposa Veronica, momento inolvidable en la vida de Francisco',
+      imagen:'https://drive.google.com/thumbnail?id=1u54o6T79LkDhmxxhM0AIUBpNsBsEfMo6',
+      titlePhoto:'Playa',
+      descPhoto:'Un dia de esparicimiento',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
 
     },
     {
+      
       id:4,
-      imagen:'https://media.gettyimages.com/id/150484468/es/foto/confidence-woman-sitting-on-car.jpg?s=1024x1024&w=gi&k=20&c=QHNt-qiJAdP6MZh0xbBjrFTe0apW-I8fANnULObhXXU=',
+      imagen:'https://drive.google.com/thumbnail?id=1qb3h4roCzTfz37oSt_1hKKZXAG1rTlNz',
       titlePhoto:'Veronica',
       descPhoto:'Foto de Veronica favorita de Fransicsco, siempre aseguro que este momento jamas lo olvidaria a traves del tiempo ',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
     },
     {
       id:5,
-      imagen:'https://img.freepik.com/fotos-premium/fotografias-alegres-familia-estadounidense-cada-album-familiar_1199394-210114.jpg?w=740',
-      titlePhoto:'Gradiacion Steve Hermano Menor',
-      descPhoto:'Dia de orgullo para Francisco al ,ver terminar sus estudios su hermano.',
+      
+      imagen:'https://drive.google.com/thumbnail?id=1ldPPJnfG7hOghACCGk4_1frxwPJgb3Le',
+      titlePhoto:'Dia de Jubilo',
+      descPhoto:'Casamiento ',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
     },
     
    
     {
+      id:6,
+      imagen:'https://drive.google.com/thumbnail?id=1XtJtmKi60D_AFY8wXtRxVwiAeK0BkAWR',
+      titlePhoto:'Don Badillo',
+      descPhoto:'Foto ',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:7,
+      imagen:'https://drive.google.com/thumbnail?id=1CmS9u6ukAQKT9RfV7xVjE1aQOVmb6yPl',
+      titlePhoto:'Cenando en Familia',
+      descPhoto:'Un dia normal no tan normal con los nietos',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
       id:8,
-      imagen:'https://st3.depositphotos.com/1037987/15109/i/450/depositphotos_151097508-stock-photo-portrait-of-friends-with-drinks.jpg',
-      titlePhoto:'Año Nuevo',
-      descPhoto:'Reunion de viejos amigo, un dia para recordar',
+      
+      imagen:'https://drive.google.com/thumbnail?id=1fsN_rlGn4h4AkM2zN9Jc6zdGyCy_HDDv',
+      titlePhoto:'Cumpleaños',
+      descPhoto:'Celebrando un año mas de uno de sus nietos mas especiales.',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
         
     },
     {
       id:9,
-      imagen:'https://media.vogue.es/photos/5cc70dc2860daa5cdcbbba40/master/w_1600%2Cc_limit/nostalgia_dia_de_la_madre_fotos_antiguas_madres_e_hijas_135987185.jpg',
-      titlePhoto:'Sus primero alimentos',
-      descPhoto:'Un dia normal no tan normal',
+      imagen:'https://drive.google.com/thumbnail?id=100qnosM-SCEJ368x3p8IEFT_iU0ti1aG',
+      titlePhoto:'Real de Catorce',
+      descPhoto:'Viaje familiar ',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:10,
+      imagen:'https://drive.google.com/thumbnail?id=1BfqkrFz0L70dIaUkGMueydk-1REvyvXN',
+      titlePhoto:'Don Badillo',
+      descPhoto:'Siempre compartiendo con su nieto',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:11,
+      imagen:'https://drive.google.com/thumbnail?id=1TRHuTHnO2tAQrnD_0bmiByGAX_DY9INB',
+      titlePhoto:'Don Badillo',
+      descPhoto:'Foto',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:12,
+      imagen:'https://drive.google.com/thumbnail?id=1-WTlsAKye4u8itS5WvKAeHSOHqKIl0BZ',
+      titlePhoto:'Don Badillo',
+      descPhoto:'Foto',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:13,
+      imagen:'https://drive.google.com/thumbnail?id=1FKcjZHNQ3gXZ3I-npdalM81g09KAaNRT',
+      titlePhoto:'Regalo',
+      descPhoto:'Don Badillo recbiendo un regalo emocionado.',
+      more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
+        
+    },
+    {
+      id:14,
+      imagen:'https://drive.google.com/thumbnail?id=1BRzEBgfF5ay4JpUoQN5xcRms1o84N8ie',
+      titlePhoto:'Descance en Paz',
+      descPhoto:'Lugar de descando del Sr. Badillo',
       more:'https://us.as.com/actualidad/43-aniversario-de-la-muerte-de-john-lennon-quien-le-mato-como-y-por-que-n/'
         
     }
+
+    
+
+    
+
+
+    
+
+
   ])
+
+ 
 
   return (
 

@@ -1,4 +1,5 @@
 
+/*
 import { useEffect } from 'react';
 import { useAuthStore } from '../store/auth.store'
 import {loginRequest} from '../BD/auth';
@@ -36,10 +37,10 @@ export const LoginPage = () => {
       const password = (e.currentTarget.elements[1] as HTMLInputElement).value
 
       const resLogin = await loginRequest(email, password);
-
+       
 
       console.log(resLogin);
-      token(resLogin)      
+       
     }
 
   return (
