@@ -20,13 +20,13 @@ function App() {
      
 
     <Routes>
-      <Route path='/React-LinkedHearts-Front/fotos' element={<CardAlbum/>}/>
+      <Route path='/React-LinkedHearts-Front' element={<CardAlbum/>}/>
       <Route path='/React-LinkedHearts-Front/videos' element={<CardVideos/>}/>
       <Route path='/React-LinkedHearts-Front/biografia' element={<Biografia/>}/>
       {/*<Route path='/login' element={<LoginPage/>}/>*/ }
       <Route path='/users' element={<UsersPage/>}/>
 
-      <Route path='/*' element={ <Navigate to = '/React-LinkedHearts-Front/fotos' />} />
+      <Route path='/*' element={ <Navigate to = '/React-LinkedHearts-Front' />} />
 
   
 
