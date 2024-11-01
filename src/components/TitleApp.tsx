@@ -9,7 +9,7 @@ export const TitleApp = () => {
     <div className="containerTitle">
         
 
-        MICORA
+        <div style={{width:'100%'}}>MICORA</div>
         <img
         style={{width: '100%', height: '100%'}} 
         src='https://drive.google.com/thumbnail?id=1mLuW713Y3MHaS8AIjxHZifif75kEWuoC'></img>
