@@ -2,5 +2,6 @@
 
 
 export * from './CardAlbum';
-export * from './Principal';
+
 export * from './Biografia';
+export * from './LoginPage';

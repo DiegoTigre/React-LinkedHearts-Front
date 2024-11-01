@@ -6,3 +6,4 @@ export * from '../screens/CardVideos';
 export * from './Header';
 export * from './Menu';
 export * from './TitleApp';
+export * from '../screens/LoginPage';

@@ -4,8 +4,9 @@ import './config/theme/App.css'
 import { Biografia, CardAlbum,} from './screens'
 
 
-import './screens/css/PrincipalCss.css'
-import { CardVideos } from './components'
+import './PrincipalCss.css'
+import { CardVideos, LoginPage } from './components'
+import { UsersPage } from './screens/UsersPage'
 
 
 
@@ -19,12 +20,15 @@ function App() {
      
 
     <Routes>
-      
-      <Route path='/fotos' element={<CardAlbum/>}/>
+      <Route path='/' element={<CardAlbum/>}/>
       <Route path='/videos' element={<CardVideos/>}/>
       <Route path='/biografia' element={<Biografia/>}/>
+      <Route path='/login' element={<LoginPage/>}/>
+      <Route path='/users' element={<UsersPage/>}/>
 
-      <Route path='/*' element={ <Navigate to = '/fotos' />} />
+      <Route path='/React-LinkedHearts-Front' element={ <Navigate to = '/React-LinkedHearts-Front' />} />
+
+  
 
 
     </Routes>
@@ -37,3 +41,5 @@ function App() {
 }
 
 export default App
+
+   // 

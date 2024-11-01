@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { TitleApp, CardBiography, Card, Menu } from "../components"
+import { TitleApp, CardBiography, Card, Menu, LoginPage } from "../components"
 import '../components/css/CardAlbum.css'
 
 
@@ -70,11 +70,13 @@ export const CardAlbum = () => {
   return (
 
     <>
+    
     <TitleApp/>
     <CardBiography/>
     <Menu/>
 
     <div className='titleCard' >Memories to remember</div>
+    
 
     <div className="bodyAlbum">
 
