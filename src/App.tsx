@@ -20,7 +20,7 @@ function App() {
      
 
     <Routes>
-      <Route path='/' element={<CardAlbum/>}/>
+      <Route path='/React-LinkedHearts-Front' element={<CardAlbum/>}/>
       <Route path='/videos' element={<CardVideos/>}/>
       <Route path='/biografia' element={<Biografia/>}/>
       <Route path='/login' element={<LoginPage/>}/>
