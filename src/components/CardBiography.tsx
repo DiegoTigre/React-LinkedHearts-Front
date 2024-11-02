@@ -39,7 +39,7 @@ export const CardBiography = () => {
    <div className='textBody'>
     <br></br>
     <h1 className="title">Jose Santos Badillo Cruz</h1>
-    <h5>Noviembre 21 1938 - octubre  21 2008</h5>
+    <h5>Noviembre 01 1938 - octubre  21 2008</h5>
   
   
   
