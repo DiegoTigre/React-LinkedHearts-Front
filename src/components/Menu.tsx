@@ -8,9 +8,9 @@ export const Menu = () => {
     <nav>
     <ul>
   <li><Link to= '/React-LinkedHearts-Front'>Memorias</Link></li>
-  <li><Link to='/React-LinkedHearts-Front/videos'>Video Memorias</Link></li>
-  <li><a href="/React-LinkedHearts-Front/">Linea del Tiempo</a></li>
-  <li><Link to='/React-LinkedHearts-Front/biografia'>Biografia</Link></li>
+  <li><Link to='/React-LinkedHearts-Front/videos'>Videos</Link></li>
+  <li><a href="/React-LinkedHearts-Front">Linea Tiempo</a></li>
+  <li><Link to='/React-LinkedHearts-Front/bio'>Bio</Link></li>
    </ul>
    </nav>
     </>

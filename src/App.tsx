@@ -6,7 +6,7 @@ import { Biografia, CardAlbum,} from './screens'
 
 import './PrincipalCss.css'
 import { CardVideos, /*LoginPage*/  } from './components'
-import { UsersPage } from './screens/UsersPage'
+
 
 
 
@@ -22,9 +22,9 @@ function App() {
     <Routes>
       <Route path='/React-LinkedHearts-Front' element={<CardAlbum/>}/>
       <Route path='/React-LinkedHearts-Front/videos' element={<CardVideos/>}/>
-      <Route path='/React-LinkedHearts-Front/biografia' element={<Biografia/>}/>
+      <Route path='/React-LinkedHearts-Front/bio' element={<Biografia/>}/>
       {/*<Route path='/login' element={<LoginPage/>}/>*/ }
-      <Route path='/users' element={<UsersPage/>}/>
+      {/*<Route path='/users' element={<UsersPage/>}/>*/ }
 
       <Route path='/*' element={ <Navigate to = '/React-LinkedHearts-Front' />} />
 

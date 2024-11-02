@@ -6,6 +6,8 @@ import { TitleApp } from '../components/TitleApp';
 import { Menu } from '../components/Menu';
 import { Video } from '../components/Video';
 import { useState } from 'react';
+import { Footer } from '../components/Footer';
+
 
 
 export const CardVideos = () => {
@@ -15,35 +17,13 @@ export const CardVideos = () => {
           {
         
             id:1,
-            url:'',
+            url:'https://www.youtube.com/watch?v=04e_we-jP1o',
             
-            descPhoto:'Video',
+            descPhoto:'Video Homenaje',
             
         },
         
-        {
-          id:2,
-          url: '',
-         
-          descPhoto: 'Video',
-        
-        },
-        
-        {
-          id:2,
-          url: '',
-         
-          descPhoto: 'Video',
-         
-        },
-        
-        {
-          id:2,
-          url: '',
-          
-          descPhoto: 'Video',
-          
-        },
+      
         
         ])
         
@@ -72,32 +52,11 @@ export const CardVideos = () => {
                )
           })}
      </div>
+
+     <Footer/>
   
-     
-
-     
-
+ 
   
-
-
-     
-
-
-      
-
-       
-    
-    
-
-     
-
-
-     
-
-
-      
-         
-    
     
     </>
     

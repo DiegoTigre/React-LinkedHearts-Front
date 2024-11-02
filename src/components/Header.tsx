@@ -7,7 +7,7 @@ export const Header = () => {
     
 
     <div className="fondobiography">
-    <img style={{width: '100%', height: '700px', maxWidth:'2000px'}} src='https://media.admagazine.com/photos/670d64a15d49f63b3d67d7c0/16:9/w_1920,c_limit/flores-ofrenda.jpg'></img>
+    <img style={{width: '100%', height: '50%', maxWidth:'100%', marginBottom:'80px'}} src='https://jugosdelvalle.com.mx/wp-content/uploads/2022/09/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass-scaled.jpg'></img>
 
     </div>
     

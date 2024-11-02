@@ -41,7 +41,7 @@
 .container {
     width: 100%;
     max-width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     height: 50%;
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
     
     /*/ Agrego scala al pasar el mouse la card crece un 150% */
-    transform: scale(1.25);
+    transform: scale(1.5);
 }
 
 .container .card img{
@@ -84,7 +84,13 @@
 }
 
 .img{
-    width: 190px;
+    width: 160px;
+    height: 180px;
+    margin-top: -7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    position: relative;
     
 }
 
